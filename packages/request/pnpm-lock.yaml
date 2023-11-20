@@ -1,0 +1,374 @@
+lockfileVersion: 5.4
+
+specifiers:
+  axios: ^1.6.2
+  esbuild: ^0.19.6
+  typescript: ^5.2.2
+
+dependencies:
+  axios: nexus3.bilibili.co/axios/1.6.2
+  esbuild: nexus3.bilibili.co/esbuild/0.19.6
+  typescript: nexus3.bilibili.co/typescript/5.2.2
+
+packages:
+
+  nexus3.bilibili.co/@esbuild/android-arm/0.19.6:
+    resolution: {integrity: sha512-muPzBqXJKCbMYoNbb1JpZh/ynl0xS6/+pLjrofcR3Nad82SbsCogYzUE6Aq9QT3cLP0jR/IVK/NHC9b90mSHtg==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/android-arm/-/android-arm-0.19.6.tgz}
+    name: '@esbuild/android-arm'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/android-arm64/0.19.6:
+    resolution: {integrity: sha512-KQ/hbe9SJvIJ4sR+2PcZ41IBV+LPJyYp6V1K1P1xcMRup9iYsBoQn4MzE3mhMLOld27Au2eDcLlIREeKGUXpHQ==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/android-arm64/-/android-arm64-0.19.6.tgz}
+    name: '@esbuild/android-arm64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/android-x64/0.19.6:
+    resolution: {integrity: sha512-VVJVZQ7p5BBOKoNxd0Ly3xUM78Y4DyOoFKdkdAe2m11jbh0LEU4bPles4e/72EMl4tapko8o915UalN/5zhspg==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/android-x64/-/android-x64-0.19.6.tgz}
+    name: '@esbuild/android-x64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/darwin-arm64/0.19.6:
+    resolution: {integrity: sha512-91LoRp/uZAKx6ESNspL3I46ypwzdqyDLXZH7x2QYCLgtnaU08+AXEbabY2yExIz03/am0DivsTtbdxzGejfXpA==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/darwin-arm64/-/darwin-arm64-0.19.6.tgz}
+    name: '@esbuild/darwin-arm64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/darwin-x64/0.19.6:
+    resolution: {integrity: sha512-QCGHw770ubjBU1J3ZkFJh671MFajGTYMZumPs9E/rqU52md6lIil97BR0CbPq6U+vTh3xnTNDHKRdR8ggHnmxQ==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/darwin-x64/-/darwin-x64-0.19.6.tgz}
+    name: '@esbuild/darwin-x64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/freebsd-arm64/0.19.6:
+    resolution: {integrity: sha512-J53d0jGsDcLzWk9d9SPmlyF+wzVxjXpOH7jVW5ae7PvrDst4kiAz6sX+E8btz0GB6oH12zC+aHRD945jdjF2Vg==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/freebsd-arm64/-/freebsd-arm64-0.19.6.tgz}
+    name: '@esbuild/freebsd-arm64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/freebsd-x64/0.19.6:
+    resolution: {integrity: sha512-hn9qvkjHSIB5Z9JgCCjED6YYVGCNpqB7dEGavBdG6EjBD8S/UcNUIlGcB35NCkMETkdYwfZSvD9VoDJX6VeUVA==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/freebsd-x64/-/freebsd-x64-0.19.6.tgz}
+    name: '@esbuild/freebsd-x64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/linux-arm/0.19.6:
+    resolution: {integrity: sha512-G8IR5zFgpXad/Zp7gr7ZyTKyqZuThU6z1JjmRyN1vSF8j0bOlGzUwFSMTbctLAdd7QHpeyu0cRiuKrqK1ZTwvQ==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/linux-arm/-/linux-arm-0.19.6.tgz}
+    name: '@esbuild/linux-arm'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/linux-arm64/0.19.6:
+    resolution: {integrity: sha512-HQCOrk9XlH3KngASLaBfHpcoYEGUt829A9MyxaI8RMkfRA8SakG6YQEITAuwmtzFdEu5GU4eyhKcpv27dFaOBg==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/linux-arm64/-/linux-arm64-0.19.6.tgz}
+    name: '@esbuild/linux-arm64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/linux-ia32/0.19.6:
+    resolution: {integrity: sha512-22eOR08zL/OXkmEhxOfshfOGo8P69k8oKHkwkDrUlcB12S/sw/+COM4PhAPT0cAYW/gpqY2uXp3TpjQVJitz7w==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/linux-ia32/-/linux-ia32-0.19.6.tgz}
+    name: '@esbuild/linux-ia32'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/linux-loong64/0.19.6:
+    resolution: {integrity: sha512-82RvaYAh/SUJyjWA8jDpyZCHQjmEggL//sC7F3VKYcBMumQjUL3C5WDl/tJpEiKtt7XrWmgjaLkrk205zfvwTA==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/linux-loong64/-/linux-loong64-0.19.6.tgz}
+    name: '@esbuild/linux-loong64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [loong64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/linux-mips64el/0.19.6:
+    resolution: {integrity: sha512-8tvnwyYJpR618vboIv2l8tK2SuK/RqUIGMfMENkeDGo3hsEIrpGldMGYFcWxWeEILe5Fi72zoXLmhZ7PR23oQA==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/linux-mips64el/-/linux-mips64el-0.19.6.tgz}
+    name: '@esbuild/linux-mips64el'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/linux-ppc64/0.19.6:
+    resolution: {integrity: sha512-Qt+D7xiPajxVNk5tQiEJwhmarNnLPdjXAoA5uWMpbfStZB0+YU6a3CtbWYSy+sgAsnyx4IGZjWsTzBzrvg/fMA==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/linux-ppc64/-/linux-ppc64-0.19.6.tgz}
+    name: '@esbuild/linux-ppc64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/linux-riscv64/0.19.6:
+    resolution: {integrity: sha512-lxRdk0iJ9CWYDH1Wpnnnc640ajF4RmQ+w6oHFZmAIYu577meE9Ka/DCtpOrwr9McMY11ocbp4jirgGgCi7Ls/g==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/linux-riscv64/-/linux-riscv64-0.19.6.tgz}
+    name: '@esbuild/linux-riscv64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [riscv64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/linux-s390x/0.19.6:
+    resolution: {integrity: sha512-MopyYV39vnfuykHanRWHGRcRC3AwU7b0QY4TI8ISLfAGfK+tMkXyFuyT1epw/lM0pflQlS53JoD22yN83DHZgA==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/linux-s390x/-/linux-s390x-0.19.6.tgz}
+    name: '@esbuild/linux-s390x'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/linux-x64/0.19.6:
+    resolution: {integrity: sha512-UWcieaBzsN8WYbzFF5Jq7QULETPcQvlX7KL4xWGIB54OknXJjBO37sPqk7N82WU13JGWvmDzFBi1weVBajPovg==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/linux-x64/-/linux-x64-0.19.6.tgz}
+    name: '@esbuild/linux-x64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/netbsd-x64/0.19.6:
+    resolution: {integrity: sha512-EpWiLX0fzvZn1wxtLxZrEW+oQED9Pwpnh+w4Ffv8ZLuMhUoqR9q9rL4+qHW8F4Mg5oQEKxAoT0G+8JYNqCiR6g==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/netbsd-x64/-/netbsd-x64-0.19.6.tgz}
+    name: '@esbuild/netbsd-x64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [netbsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/openbsd-x64/0.19.6:
+    resolution: {integrity: sha512-fFqTVEktM1PGs2sLKH4M5mhAVEzGpeZJuasAMRnvDZNCV0Cjvm1Hu35moL2vC0DOrAQjNTvj4zWrol/lwQ8Deg==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/openbsd-x64/-/openbsd-x64-0.19.6.tgz}
+    name: '@esbuild/openbsd-x64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/sunos-x64/0.19.6:
+    resolution: {integrity: sha512-M+XIAnBpaNvaVAhbe3uBXtgWyWynSdlww/JNZws0FlMPSBy+EpatPXNIlKAdtbFVII9OpX91ZfMb17TU3JKTBA==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/sunos-x64/-/sunos-x64-0.19.6.tgz}
+    name: '@esbuild/sunos-x64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [sunos]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/win32-arm64/0.19.6:
+    resolution: {integrity: sha512-2DchFXn7vp/B6Tc2eKdTsLzE0ygqKkNUhUBCNtMx2Llk4POIVMUq5rUYjdcedFlGLeRe1uLCpVvCmE+G8XYybA==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/win32-arm64/-/win32-arm64-0.19.6.tgz}
+    name: '@esbuild/win32-arm64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/win32-ia32/0.19.6:
+    resolution: {integrity: sha512-PBo/HPDQllyWdjwAVX+Gl2hH0dfBydL97BAH/grHKC8fubqp02aL4S63otZ25q3sBdINtOBbz1qTZQfXbP4VBg==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/win32-ia32/-/win32-ia32-0.19.6.tgz}
+    name: '@esbuild/win32-ia32'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/@esbuild/win32-x64/0.19.6:
+    resolution: {integrity: sha512-OE7yIdbDif2kKfrGa+V0vx/B3FJv2L4KnIiLlvtibPyO9UkgO3rzYE0HhpREo2vmJ1Ixq1zwm9/0er+3VOSZJA==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/@esbuild/win32-x64/-/win32-x64-0.19.6.tgz}
+    name: '@esbuild/win32-x64'
+    version: 0.19.6
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  nexus3.bilibili.co/asynckit/0.4.0:
+    resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/asynckit/-/asynckit-0.4.0.tgz}
+    name: asynckit
+    version: 0.4.0
+    dev: false
+
+  nexus3.bilibili.co/axios/1.6.2:
+    resolution: {integrity: sha512-7i24Ri4pmDRfJTR7LDBhsOTtcm+9kjX5WiY1X3wIisx6G9So3pfMkEiU7emUBe46oceVImccTEM3k6C5dbVW8A==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/axios/-/axios-1.6.2.tgz}
+    name: axios
+    version: 1.6.2
+    dependencies:
+      follow-redirects: nexus3.bilibili.co/follow-redirects/1.15.3
+      form-data: nexus3.bilibili.co/form-data/4.0.0
+      proxy-from-env: nexus3.bilibili.co/proxy-from-env/1.1.0
+    transitivePeerDependencies:
+      - debug
+    dev: false
+
+  nexus3.bilibili.co/combined-stream/1.0.8:
+    resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/combined-stream/-/combined-stream-1.0.8.tgz}
+    name: combined-stream
+    version: 1.0.8
+    engines: {node: '>= 0.8'}
+    dependencies:
+      delayed-stream: nexus3.bilibili.co/delayed-stream/1.0.0
+    dev: false
+
+  nexus3.bilibili.co/delayed-stream/1.0.0:
+    resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/delayed-stream/-/delayed-stream-1.0.0.tgz}
+    name: delayed-stream
+    version: 1.0.0
+    engines: {node: '>=0.4.0'}
+    dev: false
+
+  nexus3.bilibili.co/esbuild/0.19.6:
+    resolution: {integrity: sha512-Xl7dntjA2OEIvpr9j0DVxxnog2fyTGnyVoQXAMQI6eR3mf9zCQds7VIKUDCotDgE/p4ncTgeRqgX8t5d6oP4Gw==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/esbuild/-/esbuild-0.19.6.tgz}
+    name: esbuild
+    version: 0.19.6
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@esbuild/android-arm': nexus3.bilibili.co/@esbuild/android-arm/0.19.6
+      '@esbuild/android-arm64': nexus3.bilibili.co/@esbuild/android-arm64/0.19.6
+      '@esbuild/android-x64': nexus3.bilibili.co/@esbuild/android-x64/0.19.6
+      '@esbuild/darwin-arm64': nexus3.bilibili.co/@esbuild/darwin-arm64/0.19.6
+      '@esbuild/darwin-x64': nexus3.bilibili.co/@esbuild/darwin-x64/0.19.6
+      '@esbuild/freebsd-arm64': nexus3.bilibili.co/@esbuild/freebsd-arm64/0.19.6
+      '@esbuild/freebsd-x64': nexus3.bilibili.co/@esbuild/freebsd-x64/0.19.6
+      '@esbuild/linux-arm': nexus3.bilibili.co/@esbuild/linux-arm/0.19.6
+      '@esbuild/linux-arm64': nexus3.bilibili.co/@esbuild/linux-arm64/0.19.6
+      '@esbuild/linux-ia32': nexus3.bilibili.co/@esbuild/linux-ia32/0.19.6
+      '@esbuild/linux-loong64': nexus3.bilibili.co/@esbuild/linux-loong64/0.19.6
+      '@esbuild/linux-mips64el': nexus3.bilibili.co/@esbuild/linux-mips64el/0.19.6
+      '@esbuild/linux-ppc64': nexus3.bilibili.co/@esbuild/linux-ppc64/0.19.6
+      '@esbuild/linux-riscv64': nexus3.bilibili.co/@esbuild/linux-riscv64/0.19.6
+      '@esbuild/linux-s390x': nexus3.bilibili.co/@esbuild/linux-s390x/0.19.6
+      '@esbuild/linux-x64': nexus3.bilibili.co/@esbuild/linux-x64/0.19.6
+      '@esbuild/netbsd-x64': nexus3.bilibili.co/@esbuild/netbsd-x64/0.19.6
+      '@esbuild/openbsd-x64': nexus3.bilibili.co/@esbuild/openbsd-x64/0.19.6
+      '@esbuild/sunos-x64': nexus3.bilibili.co/@esbuild/sunos-x64/0.19.6
+      '@esbuild/win32-arm64': nexus3.bilibili.co/@esbuild/win32-arm64/0.19.6
+      '@esbuild/win32-ia32': nexus3.bilibili.co/@esbuild/win32-ia32/0.19.6
+      '@esbuild/win32-x64': nexus3.bilibili.co/@esbuild/win32-x64/0.19.6
+    dev: false
+
+  nexus3.bilibili.co/follow-redirects/1.15.3:
+    resolution: {integrity: sha512-1VzOtuEM8pC9SFU1E+8KfTjZyMztRsgEfwQl44z8A25uy13jSzTj6dyK2Df52iV0vgHCfBwLhDWevLn95w5v6Q==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/follow-redirects/-/follow-redirects-1.15.3.tgz}
+    name: follow-redirects
+    version: 1.15.3
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dev: false
+
+  nexus3.bilibili.co/form-data/4.0.0:
+    resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/form-data/-/form-data-4.0.0.tgz}
+    name: form-data
+    version: 4.0.0
+    engines: {node: '>= 6'}
+    dependencies:
+      asynckit: nexus3.bilibili.co/asynckit/0.4.0
+      combined-stream: nexus3.bilibili.co/combined-stream/1.0.8
+      mime-types: nexus3.bilibili.co/mime-types/2.1.35
+    dev: false
+
+  nexus3.bilibili.co/mime-db/1.52.0:
+    resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/mime-db/-/mime-db-1.52.0.tgz}
+    name: mime-db
+    version: 1.52.0
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  nexus3.bilibili.co/mime-types/2.1.35:
+    resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/mime-types/-/mime-types-2.1.35.tgz}
+    name: mime-types
+    version: 2.1.35
+    engines: {node: '>= 0.6'}
+    dependencies:
+      mime-db: nexus3.bilibili.co/mime-db/1.52.0
+    dev: false
+
+  nexus3.bilibili.co/proxy-from-env/1.1.0:
+    resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/proxy-from-env/-/proxy-from-env-1.1.0.tgz}
+    name: proxy-from-env
+    version: 1.1.0
+    dev: false
+
+  nexus3.bilibili.co/typescript/5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==, registry: http://registry.npm.bilibili.co/, tarball: https://nexus3.bilibili.co/repository/npm-public/typescript/-/typescript-5.2.2.tgz}
+    name: typescript
+    version: 5.2.2
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: false
