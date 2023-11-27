@@ -1,37 +1,37 @@
-
-type TOptions = {
-  countDown:number,
+interface TOptions {
+  countDown: number
 }
 
-type TResult = {
-  countDown:number,
-  day:string,
-  hour:string,
-  minute:string,
-  second:string
+interface TResult {
+  countDown: number
+  day: string
+  hour: string
+  minute: string
+  second: string
 }
 
-type TCallBack = (result:TResult) => void
+type TCallBack = (result: TResult) => void
 
 export class CountdownService {
-  constructor (options:TOptions) {
+  constructor (options: TOptions) {
     this.countDown = options.countDown
     this.timer = null
     this.start = 0
     this.count = 1
   }
 
-  static serverTime:number
-  private timer:ReturnType<typeof setTimeout> | null
-  private start:number
-  private count:number
-  private countDown:number
-  private getDate () {
+  static serverTime: number
+  private timer: ReturnType<typeof setTimeout> | null
+  private start: number
+  private count: number
+  private countDown: number
+
+  private getDate (): number {
     return new Date().getTime()
   }
 
-  private createTimer (cb:TCallBack) {
-    const date = this.getDate() 
+  private createTimer (cb: TCallBack): void {
+    const date = this.getDate()
     const offset = date - (this.start + this.count * 1000)
     const nextDelay = Math.max(1000 - offset, 0)
     const diff = Math.floor(offset / 1000)
@@ -41,14 +41,14 @@ export class CountdownService {
     const result = this.composeResult()
     cb(result)
     if (result.countDown <= 0) {
-      return this.clearTimeOut()
+      this.clearTimeOut(); return
     }
     this.timer = setTimeout(() => {
       this.createTimer(cb)
     }, nextDelay)
   }
 
-  private composeResult ():TResult {
+  private composeResult (): TResult {
     const timeStamp = Math.max(this.countDown, 0)
     const day = String(Math.floor(timeStamp / (3600 * 24)))
     const hour = String(Math.floor(timeStamp / 3600 % 24))
@@ -63,7 +63,7 @@ export class CountdownService {
     }
   }
 
-  createCountDown (cb:TCallBack) {
+  createCountDown (cb: TCallBack): void {
     this.start = this.getDate()
     this.clearTimeOut()
     this.timer = setTimeout(() => {
@@ -71,8 +71,10 @@ export class CountdownService {
     }, 1000)
   }
 
-  clearTimeOut () {
-    this.timer && clearTimeout(this.timer)
-    this.timer = null
+  clearTimeOut (): void {
+    if (this.timer !== null) {
+      clearTimeout(this.timer)
+      this.timer = null
+    }
   }
 }
